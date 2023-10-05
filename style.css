@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 100%;
+    width: 100%;
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+
+}
+
+#panel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+#panelbox {
+    width: 80%;
+    height: 80%;
+    background-color: goldenrod;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20%;
+    width: 100%;
+    height: 100px;
+background: linear-gradient(292deg, rgba(238,174,202,1) 0%, rgba(253,187,45,1) 100%);
+    color: #fff;
+}
+
+.elem {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.box {
+    background-color: #fff;
+    font-weight: 700;
+    font-size: 25px;
+    height: 45px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: #ebbc55;
+}
+
+#bottom {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    height: calc(100% - 100px);
+    padding: 20px;
+background: linear-gradient(292deg, rgba(131,58,180,1) 0%, rgba(253,29,29,0.8184523809523809) 50%, rgba(252,176,69,1) 100%);
+}
+
+.bubble {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: #eed7ae;
+    border-radius: 50%;
+    color: goldenrod;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.bubble:hover {
+    cursor: pointer;
+    background-color: #ebbc55;
+}
